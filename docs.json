@@ -89,6 +89,34 @@
       {
         "label": "Web",
         "href": "https://gttournament.cz/"
+      },
+      {
+        "label": "Google Drive",
+        "href": "https://drive.google.com/drive/u/0/folders/0AG4YwrVfLOA_Uk9PVA"
+      },
+      {
+        "label": "Twitch A",
+        "href": "https://www.twitch.tv/gttournament_a"
+      },
+      {
+        "label": "Twitch B",
+        "href": "https://www.twitch.tv/gttournament_b"
+      },
+      {
+        "label": "Twitch C",
+        "href": "https://www.twitch.tv/gttournament_c"
+      },
+      {
+        "label": "Twitch D",
+        "href": "https://www.twitch.tv/gttournament_d"
+      },
+      {
+        "label": "Admin",
+        "href": "https://admin.gttournament.cz/"
+      },
+      {
+        "label": "Registrace",
+        "href": "https://login.gttournament.cz/"
       }
     ],
     "primary": {
@@ -127,5 +155,14 @@
   },
   "search": {
     "prompt": "Zeptej se Viotala šunčičko ;)"
+  },
+  "footer": {
+    "socials": {
+      "website": "https://gttournament.cz/",
+      "instagram": "https://www.instagram.com/gttournament.official/",
+      "youtube": "https://www.youtube.com/@gttournament",
+      "discord": "https://discord.com/invite/WXtGFxrAdR",
+      "x": "https://x.com/gttournament"
+    }
   }
 }
