@@ -5,35 +5,48 @@ description: Kompletní návod pro ověření uploadu, OBS setup a streamování
 
 # Jak nastavit stream
 
-## Minimum pro 1080p60
-Minimální upload pro 1080p při 60 FPS je **6 Mbps**.
+<Steps>
+  <Step title="Zkontroluj rychlost připojení" icon="wifi">
+    Minimální upload pro streamování v 1080p při 60 FPS je **6 Mbps**.
+  </Step>
+  
+  <Step title="Nastavení zvuku v OBS" icon="volume-high">
+    - Vzorkovací frekvence: **48 kHz**
+    - Kanály: **Stereo**
+    - Stopa 1 bitrate: **320 kbps**
+  </Step>
 
-## Jak rychle mizí místo na disku
-| Délka záznamu | Místo na disku |
-| --- | --- |
-| 1 min | 375 MB |
-| 10 min | 3.75 GB |
-| 1 h | 22.5 GB |
-| 3 h | 67.5 GB |
-| 5 h | 112.5 GB |
-| 8 h | 180 GB |
+  <Step title="Nastavení obrazu v OBS" icon="display">
+    - Výstupní rozlišení: **1920 × 1080**
+    - Snímkování: **60 FPS**
+  </Step>
 
-## Nastavení zvuku v OBS
-- vzorkovací frekvence: **48 kHz**
-- kanály: **stereo**
-- stopa 1 bitrate: **320 kbps**
+  <Step title="Nastavení zpoždění (Delay)" icon="clock">
+    Podle vysílané hry nezapomeň nastavit správný delay, aby nedocházelo ke stream-snipingu:
+    
+    | Hra | Delay |
+    | --- | --- |
+    | Valorant | 2 min |
+    | Minecraft | 5 min |
+    | R6 | 3 min |
+    | CS2 | 2 min |
+    | League of Legends | 0 min |
+    | Rocket League | 0 min |
+    | Assetto Corsa | 0 min |
+  </Step>
+</Steps>
 
-## Nastavení obrazu v OBS
-- výstupní rozlišení: **1920 × 1080**
-- snímkování: **60 FPS**
+<br />
 
-## Doporučené delaye podle hry
-| Hra | Delay |
-| --- | --- |
-| Valorant | 2 min |
-| Minecraft | 5 min |
-| R6 | 3 min |
-| CS2 | 2 min |
-| League of Legends | 0 min |
-| Rocket League | 0 min |
-| Assetto Corsa | 0 min |
+<Accordion title="Jak rychle mizí místo na disku při lokálním záznamu?" icon="hard-drive">
+  Pokud kromě streamu děláš i lokální záznam (recording), ujisti se, že máš na disku dostatek místa:
+  
+  | Délka záznamu | Místo na disku |
+  | --- | --- |
+  | 1 min | 375 MB |
+  | 10 min | 3.75 GB |
+  | 1 h | 22.5 GB |
+  | 3 h | 67.5 GB |
+  | 5 h | 112.5 GB |
+  | 8 h | 180 GB |
+</Accordion>

@@ -5,44 +5,63 @@ description: Naming, typografie, barvy a content pravidla pro GT Tournament.
 
 # Tvůrčí příručka
 
-## Obsah
-- pojmenování záznamů
-- typografie
-- vizuální inspirace a grafické podklady
-- oficiální Style Guide
+Pravidla pro zachování jednotné vizuální identity a pořádku v materiálech GT Tournamentu.
 
-## Pojmenování záznamů z OBS
-OBS generuje názvy souborů automaticky. Tyto názvy se nemají ručně měnit.
+## Pojmenování souborů
 
-### Příklad
-`2023-11-19 10-00-17.mp4`
+<CardGroup cols={2}>
+  <Card title="Záznamy z OBS" icon="video">
+    OBS generuje názvy automaticky. Tyto názvy **neměňte**.
+    
+    *Příklad:* `2023-11-19 10-00-17.mp4`
+  </Card>
+  <Card title="Finální záběry" icon="file-video">
+    Doporučený formát pro exporty:
+    `tým1 vs. tým2 | [ROK] [HRA]`
+    
+    *Příklad:* `GTT vs. Tým X | 2024 VALORANT`
+  </Card>
+</CardGroup>
 
-## Pojmenování finálních záběrů
-| Hra | Doporučený formát |
-| --- | --- |
-| VALORANT | `team1 vs. team2 | 2023 VALORANT` |
-| Rainbow Six Siege | `team1 vs. team2 | 2023 Rainbow Six Siege` |
-| Minecraft | `team1 vs. team2 vs. team3 | 2023 Minecraft` |
-| CS2 | `team1 vs. team2 | 2023 CS2` |
-| League of Legends | `team1 vs. team2 | 2023 League of Legends` |
-| Rocket League | `team1 vs. team2 | 2023 Rocket League` |
+<br />
 
-## Typografie
-Od roku 2023 se používá font **Montserrat**.
+<AccordionGroup>
+  <Accordion title="Typografie" icon="font">
+    Od roku 2023 je naším hlavním fontem **Montserrat**. Používejte jej pro veškerou grafiku i dokumentaci.
+  </Accordion>
 
-## Barevnost
-- `#010009`
-- `#02001E`
-- `#FFA200`
-- `#FF6920`
-- `#FFD700`
-- `#FFF54F`
-- `#00AB6B`
-- `#7CFC00`
-- `#00FFFF`
-- `#87CEEB`
-- `#000000`
-- `#FFFFFF`
-- `#808080`
-- `#FF0000`
-- `#DC143C`
+  <Accordion title="Barevná paleta" icon="palette">
+    Naše barvy definují náš vizuál. Zde jsou hex kódy pro použití v grafických editorech:
+
+    <div className="flex flex-wrap gap-2">
+      <div className="flex items-center gap-2 p-2 rounded bg-slate-900 border border-slate-700">
+        <div className="w-4 h-4 rounded" style={{ backgroundColor: '#010009' }}></div>
+        <code>#010009</code> (Dark)
+      </div>
+      <div className="flex items-center gap-2 p-2 rounded bg-slate-900 border border-slate-700">
+        <div className="w-4 h-4 rounded" style={{ backgroundColor: '#FFA200' }}></div>
+        <code>#FFA200</code> (Primary Orange)
+      </div>
+      <div className="flex items-center gap-2 p-2 rounded bg-slate-900 border border-slate-700">
+        <div className="w-4 h-4 rounded" style={{ backgroundColor: '#FFD700' }}></div>
+        <code>#FFD700</code> (Gold)
+      </div>
+      <div className="flex items-center gap-2 p-2 rounded bg-slate-900 border border-slate-700">
+        <div className="w-4 h-4 rounded" style={{ backgroundColor: '#00AB6B' }}></div>
+        <code>#00AB6B</code> (Green)
+      </div>
+      <div className="flex items-center gap-2 p-2 rounded bg-slate-900 border border-slate-700">
+        <div className="w-4 h-4 rounded" style={{ backgroundColor: '#87CEEB' }}></div>
+        <code>#87CEEB</code> (Sky Blue)
+      </div>
+    </div>
+
+    *Ostatní povolené barvy:* `#02001E`, `#FF6920`, `#FFF54F`, `#7CFC00`, `#00FFFF`, `#000000`, `#FFFFFF`, `#808080`, `#FF0000`, `#DC143C`.
+  </Accordion>
+
+  <Accordion title="Zásady pro obsah" icon="pen-nib">
+    - Budujte brand skrze konzistentní grafiku.
+    - Sledujte oficiální Style Guide pro specifické marketingové kampaně.
+    - Vždy používejte loga ve vysokém rozlišení ze [Skladiště materiálů](/uloziste-materialu).
+  </Accordion>
+</AccordionGroup>
