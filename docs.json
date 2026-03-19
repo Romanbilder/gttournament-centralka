@@ -110,8 +110,8 @@
    ]
   },
   "appearance": {
-    "strict": true,
-    "default": "dark"
+    "strict": false,
+    "default": "system"
   },
   "fonts": {
     "heading": {
