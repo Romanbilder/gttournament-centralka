@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Centrálka",
   "colors": {
-    "primary": "#feff00",
-    "light": "#1e37ff",
-    "dark": "#4c00ff"
+    "primary": "#F7A400",
+    "light": "#FBC900",
+    "dark": "#1D252C"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -83,10 +83,7 @@
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/images/Datovýzdroj1PNG100.png",
   "navbar": {
     "links": [
       {
@@ -121,5 +118,9 @@
   },
   "appearance": {
     "strict": true
-  }
+  },
+  "fonts": {
+    "family": "Orbitron"
+  },
+  "description": "Pouze pro organizátory"
 }
