@@ -123,8 +123,7 @@
   },
   "description": "Pouze pro organizátory",
   "background": {
-    "decoration": "grid",
-    "image": "/images/COVER.png"
+    "decoration": "windows"
   },
   "search": {
     "prompt": "Zeptej se Viotala šunčičko ;)"
