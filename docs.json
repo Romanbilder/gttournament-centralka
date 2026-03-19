@@ -7,7 +7,7 @@
     "light": "#FBC900",
     "dark": "#1D252C"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/Datovýzdroj2PNG100.png",
   "navigation": {
     "tabs": [
       {
@@ -83,7 +83,7 @@
       ]
     }
   },
-  "logo": "/images/Datovýzdroj1PNG100.png",
+  "logo": "/images/Profilovýobrázek800x800.png",
   "navbar": {
     "links": [
       {
@@ -123,6 +123,7 @@
   },
   "description": "Pouze pro organizátory",
   "background": {
-    "decoration": "grid"
+    "decoration": "grid",
+    "image": "/images/COVER.png"
   }
 }
