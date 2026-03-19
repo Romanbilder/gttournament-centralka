@@ -8,81 +8,60 @@
     "dark": "#1D252C"
   },
   "favicon": "/images/Datovýzdroj2PNG100.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
+  "navigation": [
+    {
+      "group": "GT Tournament Knowledge Base",
+      "pages": [
+        "index",
+        "seznam-organizatoru",
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "group": "Rozpis streamů",
+          "pages": [
+            "rozpis-streamu",
+            "rozpis-streamu/2024-11-16",
+            "rozpis-streamu/2024-11-17",
+            "rozpis-streamu/2024-11-23",
+            "rozpis-streamu/2024-11-24"
+          ]
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
+          "group": "Rozpis her",
+          "pages": [
+            "rozpis-her",
+            "rozpis-her/2024-11-16",
+            "rozpis-her/2024-11-17",
+            "rozpis-her/2024-11-23",
+            "rozpis-her/2024-11-24"
+          ]
+        },
+        {
+          "group": "Pravidla",
+          "pages": [
+            "pravidla",
+            "pravidla/assetto-corsa",
+            "pravidla/counter-strike-2",
+            "pravidla/rocket-league",
+            "pravidla/minecraft",
+            "pravidla/valorant",
+            "pravidla/rainbow-six-siege",
+            "pravidla/league-of-legends"
+          ]
+        },
+        "dulezite-udaje",
+        "tvurci-prirucka",
+        "uloziste-materialu",
+        "jak-nastavit-stream",
+        "projekty",
+        "jak-na-admin-panel",
+        "templates",
+        "potrebuju-pomoct",
+        "jak-na-outlook",
+        "sprava-google-disku",
+        "sponzori",
+        "vybrana-cisla"
       ]
     }
-  },
+  ],
   "logo": "/images/Profilovýobrázek800x800.png",
   "navbar": {
     "links": [
