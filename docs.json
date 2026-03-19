@@ -170,5 +170,11 @@
       "discord": "https://discord.com/invite/WXtGFxrAdR",
       "x": "https://x.com/gttournament"
     }
+  },
+  "errors": {
+    "404": {
+      "title": "Toto na centrálce rozhodně není",
+      "description": "Vypadá to na nějakou Viotalovinu"
+    }
   }
 }
